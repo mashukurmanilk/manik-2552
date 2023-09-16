@@ -1,0 +1,8 @@
+#Ask user for name
+name = input("What is your name? ").strip().title()
+
+#Split user's name
+first, last = name.split()
+
+#Say hello to user
+print("hello,",last)
